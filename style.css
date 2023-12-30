@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner {
+    color: rgb(206, 182, 182);
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .banner a {
+    font-size: 1.5em; /* Adjust the font size for the link */
+    color: white; /* Change the link color to black */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  .banner a:hover {
+    color: rgb(0, 0, 0); /* Change the link color on hover */
+  }
+  .links {
+    margin-top: 20px; /* Add some spacing between the paragraph and links */
+  }
+  .top-icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+  }
+  
+  .top-icons a {
+    margin-right: 10px;
+  }
+  
+  .top-icons img {
+    width: 80px; /* Adjust the width of the icons */
+    height: auto;
+  }
+  
+  .contact-section {
+    position: absolute;
+    top: 80px;
+    left: 80px; /* Adjust the left position based on your preference */
+    color: white;
+    text-align: left;
+  }
+  
+  .contact-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .skills-section {
+    color: white;
+    text-align: center;
+    margin-top: 60px; /* Adjust the margin-top to position the skills section */
+  }
+  
+  .skills-section h3 {
+    font-size: 8em;
+    margin-bottom: 20px;
+  }
+  
+  .skills-section p {
+    font-size: 1.2em;
+  }
+  .skills-section {
+    color: white;
+    text-align: center;
+    margin-top: 80px; /* Adjust the margin-top to position the skills section */
+  }
+  
+  .skills-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item {
+    margin-top: 20px; /* Add spacing between skill items */
+  }
+  
+  .skill-item img {
+    width: 100px; /* Adjust the width of the skill images */
+    height: auto;
+  }
+  
+  .skill-item p {
+    font-size: 1.2em;
+  }
+  .skill-item {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between skill items */
+    text-align: center;
+  }
+  
+  .skill-item img {
+    width: 100px; /* Adjust the width of the skill images */
+    height: auto;
+  }
+  
+  .skill-item p {
+    font-size: 1.2em;
+    margin-top: 5px; /* Adjust the margin between image and text */
+  }
